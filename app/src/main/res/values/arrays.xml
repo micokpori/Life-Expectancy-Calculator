@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_options">
+        <item>Light theme</item>
+        <item>Dark theme</item>
+        <item>System default</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="smoking_options">
+        <item>No</item>
+        <item>Occasionally</item>
+        <item>Yes, Heavily</item>
+    </string-array>
+
+    <string-array name="social_class_options">
+        <item>Low class</item>
+        <item>Middle class</item>
+        <item>High class</item>
+    </string-array>
+
+    <string-array name="education_options">
+        <item>High School</item>
+        <item>Undergraduate</item>
+        <item>Graduate</item>
+
+    </string-array>
+
+    <string-array name="diabetic_options">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="job_status_options">
+        <item>Yes</item>
+        <item>No</item>
+        <item>I\'m retired</item>
+    </string-array>
+
+    <string-array name="bmi_options">
+        <item>Less than 18 (underweight)</item>
+        <item>18–25 (normal weight)</item>
+        <item>25–30 (overweight)</item>
+        <item>30 and above (obese)</item>
+    </string-array>
+
+    <string-array name="exercise_options">
+        <item>None</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+
+</resources>
