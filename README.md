@@ -13,15 +13,16 @@
   <img alt="Jetpack Compose" src="https://img.shields.io/static/v1?style=for-the-badge&message=Jetpack+Compose&color=4285F4&logo=Jetpack+Compose&logoColor=FFFFFF&label="/></a> 
   <img alt="Licence" src="https://img.shields.io/badge/LICENCE-CC_BY_NC_SA_4.0-blue"/></a>
   </br>
-  </br>
   
 <h4 align="center">Life Expectancy Calculator utilizes the users lifestyle and country data to estimate individual life expectancy. The app gathers information on various lifestyle factors including gender, smoking habits, social class, education level, social status, BMI, job status, and exercise frequency. Based on the selected country's average life expectancy, the app applies corresponding adjustments based on the user's lifestyle choices, providing a personalized life expectancy estimate
 
 <br>
 <br>
-
+<div align="center">
+  
 # ⬇️ Download
-<a href="https://github.com/micokpori/Life-Expectancy-Calculator/releases"><img alt="Get it on GitHub" src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png" height=80px />
+<a href="https://github.com/micokpori/Anime-NotePad/releases"><img alt="Get it on GitHub" src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png" height=80px />
+</div>
 
 # Features ✨
 
