@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .contact-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 800px;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #2d3436;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .contact-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .icon-wrapper {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .icon-wrapper img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        h3 {
+            color: #2d3436;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        p {
+            color: #636e72;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .email .contact-button { background: #e74c3c; }
+        .whatsapp .contact-button { background: #25D366; }
+        .telegram .contact-button { background: #0088cc; }
+
+        .contact-button:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .contact-button:active {
+            transform: translateY(0) scale(0.95);
+        }
+
+        .contact-button:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
+        }
+
+        .contact-button::after {
+            content: '';
+            position: absolute;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .contact-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 800px;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #2d3436;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .contact-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .icon-wrapper {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .icon-wrapper img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        h3 {
+            color: #2d3436;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        p {
+            color: #636e72;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .email .contact-button { background: #e74c3c; }
+        .whatsapp .contact-button { background: #25D366; }
+        .telegram .contact-button { background: #0088cc; }
+
+        .contact-button:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .contact-button:active {
+            transform: translateY(0) scale(0.95);
+        }
+
+        .contact-button:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
+        }
+
+        .contact-button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s ease-out, height 0.3s ease-out;
+        }
+
+        .contact-button:hover::after {
+            width: 200px;
+            height: 200px;
+        }
+
+        @media (max-width: 600px) {
+            .contact-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .icon-wrapper {
+                width: 60px;
+                height: 60px;
+            }
+
+            .icon-wrapper img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Get in Touch</h1>
+        <div class="contact-methods">
+            <div class="contact-card email">
+                <div class="icon-wrapper">
+                    <img src="https://micokpori.github.io/Contact_Genie/email-icon.svg" alt="Email icon">
+                    <!-- Replace with: <img src="path/to/your/email-icon.png" alt="Email icon"> -->
+                </div>
+                <h3>Email</h3>
+                <p>Reach out to us via email for detailed inquiries</p>
+                <a href="mailto: okporiakumiracle@gmail.com" class="contact-button">
+                    Send Email
+                </a>
+            </div>
+            
+            <div class="contact-card whatsapp">
+                <div class="icon-wrapper">
+                    <img src="https://micokpori.github.io/Contact_Genie/whatsapp-icon.svg" alt="WhatsApp icon">
+                    <!-- Replace with: <img src="path/to/your/whatsapp-icon.png" alt="WhatsApp icon"> -->
+                </div>
+                <h3>WhatsApp</h3>
+                <p>Quick responses through WhatsApp messaging</p>
+                <a href="https://wa.me/+2349039723711" class="contact-button">
+                    Chat Now
+                </a>
+            </div>
+            
+            <div class="contact-card telegram">
+                <div class="icon-wrapper">
+                    <img src="https://micokpori.github.io/Contact_Genie/telegram-icon.svg" alt="Telegram icon">
+                    <!-- Replace with: <img src="path/to/your/telegram-icon.png" alt="Telegram icon"> -->
+                </div>
+                <h3>Telegram</h3>
+                <p>Connect with us instantly on Telegram</p>
+                <a href="https://t.me/Burning_Heaven" class="contact-button">
+                    Message Us
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>￼Enter            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s ease-out, height 0.3s ease-out;
+        }
+
+        .contact-button:hover::after {
+            width: 200px;
+            height: 200px;
+        }
+
+        @media (max-width: 600px) {
+            .contact-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .icon-wrapper {
+                width: 60px;
+          height: 60px;
+            }
+
+            .icon-wrapper img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Get in Touch</h1>
+        <div class="contact-methods">
+            <div class="contact-card email">
+                <div class="icon-wrapper">
+                    <img src="https://micokpori.github.io/Contact_Genie/email-icon.svg" alt="Email icon">
+                    <!-- Replace with: <img src="path/to/your/email-icon.png" alt="Email icon"> -->
+                </div>
+                <h3>Email</h3>
+                <p>Reach out to us via email for detailed inquiries</p>
+                <a href="mailto: okporiakumiracle@gmail.com" class="contact-button">
+                    Send Email
+                </a>
+            </div>
+            
